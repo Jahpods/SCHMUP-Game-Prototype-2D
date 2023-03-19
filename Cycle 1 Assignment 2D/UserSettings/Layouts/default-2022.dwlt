@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 127
+  controlID: 72
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,9 +315,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff
+      m_SelectedIDs: b0660000
+      m_LastClickedID: 26288
+      m_ExpandedIDs: 1afbffffb8660000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -437,22 +437,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Cainos/Pixel Art Top Down - Basic/Script
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Cainos/Pixel Art Top Down - Basic/Script
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\Uni stuff\IGB100\Unity\Cycle 1 Assignment 2D
+  m_LastProjectPath: G:\Uni stuff\GitHub\SCHMUP-Game-Prototype-2D\Cycle 1 Assignment
+    2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 82670000
-    m_LastClickedID: 26498
+    m_SelectedIDs: 54670000
+    m_LastClickedID: 26452
     m_ExpandedIDs: 000000004a6700004c6700004e67000050670000526700005467000056670000586700005a6700005c67000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -848,7 +849,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -894,9 +895,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9190582, y: -0.054732744, z: 0.8977705}
+    m_Target: {x: -0.74672484, y: 0.3866119, z: -0.057784077}
     speed: 2
-    m_Value: {x: 0.9190582, y: -0.054732744, z: 0.8977705}
+    m_Value: {x: -0.74672484, y: 0.3866119, z: -0.057784077}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -946,9 +947,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.522336
+    m_Target: 9.309578
     speed: 2
-    m_Value: 7.522336
+    m_Value: 9.309578
   m_Ortho:
     m_Target: 1
     speed: 2
