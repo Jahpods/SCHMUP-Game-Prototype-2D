@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class GridMovement : MonoBehaviour
 {
+    [SerializeField] float health, maxHealth = 3f;
     private bool isMoving;
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f;
+
+    void Start()
+    {
+        health = maxHealth;
+    }
 
     // Update is called once per frame
     void Update()
@@ -24,7 +30,8 @@ public class GridMovement : MonoBehaviour
           StartCoroutine(MovePlayer(Vector3.right));
     }
 
-    private IEnumerator MovePlayer(Vector3 direction) {
+    private IEnumerator MovePlayer(Vector3 direction) 
+    {
 
         isMoving = true;
 
@@ -33,7 +40,8 @@ public class GridMovement : MonoBehaviour
         origPos = transform.position;
         targetPos = origPos + direction;
 
-        while(elapsedTime <timeToMove) {
+        while(elapsedTime <timeToMove) 
+        {
             transform.position = Vector3.Lerp(origPos, targetPos, (elapsedTime / timeToMove));
             elapsedTime += Time.deltaTime;
             yield return null;
@@ -42,6 +50,16 @@ public class GridMovement : MonoBehaviour
         transform.position = targetPos;
 
         isMoving = false;
-
     }
+
+        public void TakeDamage(float damageAmount)
+        {
+            health -= damageAmount;
+
+            if(health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    
 }

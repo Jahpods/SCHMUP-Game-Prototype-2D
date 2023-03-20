@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-
     
 
     public GameObject bullet;
@@ -44,10 +43,10 @@ public class EnemyShooting : MonoBehaviour
         }
     }
 
-    void shoot() {
+    void shoot() 
+    {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
-
-    
+               
     }
 
 }
