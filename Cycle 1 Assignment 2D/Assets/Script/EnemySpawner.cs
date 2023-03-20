@@ -24,10 +24,4 @@ public class NewBehaviourScript : MonoBehaviour
         StartCoroutine(spawnEnemy(interval, enemy));
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
