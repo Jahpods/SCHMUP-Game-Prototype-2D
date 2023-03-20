@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6969470629642276058}
   - component: {fileID: 7031189271808588893}
-  - component: {fileID: -5013402214271436260}
   - component: {fileID: -6354978378081487890}
   m_Layer: 0
   m_Name: Standard bullet
@@ -32,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7031189271808588893
 SpriteRenderer:
@@ -74,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0.3537736, g: 0.44482404, b: 1, a: 1}
@@ -87,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-5013402214271436260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2155456778734268731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b65852e24f39d3c45a414813b23f869c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  force: 5
 --- !u!50 &-6354978378081487890
 Rigidbody2D:
   serializedVersion: 4
