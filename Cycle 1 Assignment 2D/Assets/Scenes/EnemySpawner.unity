@@ -2082,6 +2082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8fdf54486cad842ba08e6f4dfc5854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6924487305328099943, guid: e2085686dabe32041b675604dd093ebb,
+    type: 3}
+  enemyInterval: 10
 --- !u!4 &264622392
 Transform:
   m_ObjectHideFlags: 0
@@ -2090,7 +2093,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264622390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.59, y: -4.15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
