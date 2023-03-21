@@ -34,12 +34,13 @@ public class EnemyBulletScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    void Collider2D(Collider other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+
+        if(collision.gameObject.TryGetComponent<GridMovement>(out GridMovement playerComponent))
         {
-            Destroy(gameObject);
+            playerComponent.TakeDamage(1);
         }
+        Destroy(gameObject);
     }
 }

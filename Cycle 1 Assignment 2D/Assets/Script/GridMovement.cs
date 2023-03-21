@@ -9,7 +9,7 @@ public class GridMovement : MonoBehaviour
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f;
 
-    void Start()
+    private void Start()
     {
         health = maxHealth;
     }
@@ -52,14 +52,14 @@ public class GridMovement : MonoBehaviour
         isMoving = false;
     }
 
-        public void TakeDamage(float damageAmount)
-        {
-            health -= damageAmount;
+    public void TakeDamage(float damageAmount)
+    {
+        health -= damageAmount;
 
-            if(health <= 0)
-            {
-                Destroy(gameObject);
-            }
+        if(health <= 0)
+        {
+            Destroy(gameObject);
         }
+    }
     
 }
