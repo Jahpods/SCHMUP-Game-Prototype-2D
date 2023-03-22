@@ -12,7 +12,9 @@ public class MeleeEnemy : MonoBehaviour
 
     void Start()
     {
-        
+
+
+
     }
 
     void Update()
