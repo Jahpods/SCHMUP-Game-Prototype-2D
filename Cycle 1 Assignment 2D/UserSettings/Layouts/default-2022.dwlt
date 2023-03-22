@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 135
+  controlID: 120
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 387
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 482
     width: 959
     height: 457
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -315,9 +315,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b0d3ffff2ed4ffff76d4ffff0cd5ffff54d5ffff9cd5ffff14d6fffffcd6ffff8ed7ffffe6d7ffffd0d8ffff26d9ffff6cd9fffff2daffffa0ddffffe8ddffff30deffffb8f8ffffc8f8ffff16f9ffff1afbffff
+      m_SelectedIDs: 8a900000
+      m_LastClickedID: 37002
+      m_ExpandedIDs: 80b2ffff3abdffffd6beffff38c1ffff82c1ffff8cc3ffff14c4ffff86c4ffffbcc5ffffa8c7ffff4ac8ffff78caffff0ed0ffffc0d1fffff8d4ffffecd5ffff50d9ffff2adaffff60deffff82e2ffff40e4ffff00edffffe4edffffd4eeffff28efffff3ef8ffff1afbffffda660000ec6600007a680000ae6800008e730000b2730000c27300003c7400004e740000727400008a740000fc8200000e830000328300004a830000c0840000d8840000e2840000508500006885000020860000448600005c8600000087000012870000e6870000008800001089000022890000b2890000cc890000728a0000848a0000e8900000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 122
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -437,14 +437,14 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Uni stuff\GitHub\SCHMUP-Game-Prototype-2D\Cycle 1 Assignment
     2D
@@ -452,9 +452,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa670000
-    m_LastClickedID: 26618
-    m_ExpandedIDs: 00000000be670000c0670000c2670000c4670000c6670000c8670000ca670000cc670000ce67000000ca9a3b
+    m_SelectedIDs: 5c670000
+    m_LastClickedID: 26460
+    m_ExpandedIDs: 000000003467000036670000386700003a6700003c6700003e67000040670000426700004467000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +482,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be670000c0670000c2670000c4670000c6670000c8670000ca670000cc670000ce670000
+    m_ExpandedIDs: 000000003467000036670000386700003a6700003c6700003e670000406700004267000044670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 5a6000002e7f00003295000000000000b66d00008a670000
+    m_ExpandedInstanceIDs: 5a6000002e7f000032950000b66d00008a67000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -20,4 +20,14 @@ public class MainMenuUI : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void ControlsButton()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void GoBackButton()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
