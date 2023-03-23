@@ -9,9 +9,13 @@ public class GridMovement : MonoBehaviour
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f;
 
+    private Rigidbody2D body;
+    private Vector2 axisMovement;
+
     private void Start()
     {
         health = maxHealth;
+        body = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -28,6 +32,9 @@ public class GridMovement : MonoBehaviour
 
       if (Input.GetKey(KeyCode.D) && !isMoving)
           StartCoroutine(MovePlayer(Vector3.right));
+
+        axisMovement.x = Input.GetAxisRaw("Horizontal");
+      
     }
 
     private IEnumerator MovePlayer(Vector3 direction) 
@@ -60,6 +67,12 @@ public class GridMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void CheckForFlipping()
+    {
+        bool movingLeft = axisMovement.x < 0;
+        bool movingRight = axisMovement.x > 0;
     }
     
 }
