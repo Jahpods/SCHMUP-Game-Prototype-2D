@@ -12,7 +12,7 @@ public class MeleeEnemy : MonoBehaviour
 
     void Start()
     {
-
+        player = GameObject.Find("Player");
 
 
     }

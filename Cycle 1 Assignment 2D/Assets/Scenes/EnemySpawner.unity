@@ -2099,7 +2099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6924487305328099943, guid: e2085686dabe32041b675604dd093ebb,
     type: 3}
-  enemyInterval: 4
+  enemyInterval: 6
 --- !u!4 &264622392
 Transform:
   m_ObjectHideFlags: 0
