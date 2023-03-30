@@ -2084,7 +2084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &264622391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   bullet: {fileID: 2684200186591671732, guid: fd2a137b0b71491408d7bfebf570ea38, type: 3}
   bulletTransform: {fileID: 1573817899}
   canFire: 1
-  timeBetweenFiring: 0.3
+  timeBetweenFiring: 0.4
 --- !u!1 &312562409
 GameObject:
   m_ObjectHideFlags: 0
