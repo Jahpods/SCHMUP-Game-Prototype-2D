@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8669545380196962215}
   - component: {fileID: -8620100277461750970}
   - component: {fileID: 1535496704682919825}
+  - component: {fileID: 8929065203659474533}
   - component: {fileID: 5386983391169425848}
   m_Layer: 0
   m_Name: EnemyCowboy
@@ -123,6 +124,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   speed: 4
+--- !u!114 &8929065203659474533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924487305328099943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2f3d5d046c4b94581c0a9e6eb1c37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  damage: 1
 --- !u!61 &5386983391169425848
 BoxCollider2D:
   m_ObjectHideFlags: 0
