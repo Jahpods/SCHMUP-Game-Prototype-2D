@@ -9,6 +9,7 @@ public class BulletScript : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D rb;
     public float force;
+    public float lifetime = 2.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,6 @@ public class BulletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Destroy(this.gameObject, lifetime); 
     }
 }

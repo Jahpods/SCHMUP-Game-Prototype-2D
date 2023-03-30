@@ -26,4 +26,13 @@ public class MeleeEnemy : MonoBehaviour
            
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "PlayerBullet")
+        {
+            Destroy(col.gameObject);
+            Destroy(gameObject);
+        }
+    }
+
 }
