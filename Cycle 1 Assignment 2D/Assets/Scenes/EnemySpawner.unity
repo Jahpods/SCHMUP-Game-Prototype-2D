@@ -2160,6 +2160,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e2001ecaa21594ebbbb4fcb3b5b804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 2684200186591671732, guid: fd2a137b0b71491408d7bfebf570ea38, type: 3}
+  bulletTransform: {fileID: 1573817899}
+  canFire: 1
+  timeBetweenFiring: 0.3
 --- !u!1 &312562409
 GameObject:
   m_ObjectHideFlags: 0
